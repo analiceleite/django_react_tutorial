@@ -1,0 +1,33 @@
+
+Definição de cada uma das bibliotecas:
+
+asgiref:
+O asgiref é uma biblioteca que fornece uma interface comum para trabalhar com servidores web em Python. Ele é usado pelo Django para suportar tanto o WSGI quanto o ASGI, que são os protocolos comuns para comunicação entre aplicativos web e servidores web em Python.
+
+Django:
+O Django é um framework web de alto nível em Python que permite o desenvolvimento rápido e seguro de aplicativos web. Ele inclui uma grande variedade de recursos, como um ORM (Object-Relational Mapper), um sistema de administração, rotas URL, templates, entre outros.
+
+django-cors-headers:
+O django-cors-headers é uma biblioteca Django que permite configurar facilmente o Cross-Origin Resource Sharing (CORS) em sua aplicação Django. CORS é um mecanismo de segurança que controla como os recursos da web podem ser acessados por navegadores de diferentes origens.
+
+djangorestframework:
+O Django REST Framework (DRF) é uma poderosa biblioteca para construir APIs web em Django. Ele fornece uma estrutura completa para criar, serializar e visualizar recursos da web, além de suportar autenticação, autorização, validação de dados e outras funcionalidades comuns em APIs RESTful.
+
+djangorestframework-simplejwt:
+O djangorestframework-simplejwt é uma extensão do Django REST Framework que fornece suporte para autenticação baseada em tokens JWT (JSON Web Tokens). Ele simplifica a implementação de autenticação JWT em APIs Django.
+
+PyJWT:
+O PyJWT é uma biblioteca Python para codificar e decodificar tokens JWT. Ele fornece funcionalidades para gerar, assinar e verificar tokens JWT, que são frequentemente usados para autenticação em aplicativos web e APIs.
+
+pytz:
+O pytz é uma biblioteca Python que fornece funcionalidades para trabalhar com fusos horários. Ele oferece suporte a uma ampla variedade de fusos horários e permite converter entre eles de maneira confiável.
+
+sqlparse:
+O sqlparse é uma biblioteca Python para analisar e formatar instruções SQL. Ele pode ser útil ao depurar consultas SQL geradas dinamicamente em aplicativos Django.
+
+psycopg2-binary:
+O psycopg2-binary é um adaptador de banco de dados PostgreSQL para Python. Ele permite que aplicativos Python se conectem a bancos de dados PostgreSQL e executem consultas SQL.
+
+python-dotenv:
+O python-dotenv é uma biblioteca Python que carrega variáveis de ambiente de um arquivo .env em seu projeto. Isso é útil para configurar variáveis de ambiente como chaves secretas, senhas de banco de dados, etc., sem expô-las diretamente no código-fonte.
+Essas bibliotecas são com
