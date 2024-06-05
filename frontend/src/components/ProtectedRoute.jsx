@@ -8,6 +8,7 @@ import { useState, useEffect } from "react"
 function ProtectedRoute({ children }) {
     const [isAuthorized, setIsAuthorized] = useState(null)
 
+    // Quando o componente é montado, o useEffect chama a função auth. Se auth falhar, o estado isAuthorized é definido como false.
     useEffect(() => {
         auth().catch(() => setIsAuthorized(false))
     }, [])
@@ -52,3 +53,7 @@ function ProtectedRoute({ children }) {
 }
 
 export default ProtectedRoute
+
+// Se isAuthorized é null, mostra uma mensagem de "Carregando...".
+// Se isAuthorized é true, renderiza os componentes filhos (children).
+// Se isAuthorized é false, redireciona para a página de login usando <Navigate to="/login" />.
